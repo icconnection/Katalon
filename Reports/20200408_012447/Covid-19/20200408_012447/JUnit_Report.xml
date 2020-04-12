@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Covid-19" time="125.1" tests="3" failures="0" errors="0">
+   <testsuite name="Covid-19" tests="3" failures="0" errors="0" time="125.1" timestamp="2020-04-08 01:25:11" hostname="thaveephongt - 192.168.1.107" id="Test Suites/Covid-19">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/thaveephongt/Katalon Studio/Be Demo/Reports/20200408_012447/Covid-19/20200408_012447"/>
+         <property name="logFiles" value="/Users/thaveephongt/Katalon Studio/Be Demo/Reports/20200408_012447/Covid-19/20200408_012447/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="thaveephongt - 192.168.1.107"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.3.0.1"/>
+         <property name="browser" value="Chrome 80.0.3987.163"/>
+         <property name="hostAddress" value="192.168.1.107"/>
+         <property name="sessionId" value="1aa75d86364b5b75dcf6cadd0c65f26e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Log in/Covid-19" time="36.231" classname="Test Cases/Log in/Covid-19" status="PASSED">
+         <system-out><![CDATA[2020-04-08 01:25:12 - [TEST_CASE][PASSED] - Test Cases/Log in/Covid-19: Test Cases/Log in/Covid-19
+
+2020-04-08 01:25:12 - [TEST_STEP][PASSED] - openBrowser("https://www.worldometers.info/coronavirus/"): Browser is opened with url: 'https://www.worldometers.info/coronavirus/'
+
+2020-04-08 01:25:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-04-08 01:25:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-04-08 01:25:30 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.worldometers.info/coronavirus/'
+
+2020-04-08 01:25:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/a_view by country")): Object: 'Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/a_view by country' is clicked on
+
+2020-04-08 01:25:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/a_view by country' is clicked on
+
+2020-04-08 01:25:39 - [TEST_STEP][PASSED] - for ([rowNum = 1, rowNum <= findTestData("Covid-19/Country").getRowNumbers(), (rowNum++)]): Text of object 'Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/td_3' is: '+556'
+
+2020-04-08 01:25:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/input_Search_form-control input-sm"), findTestData("Covid-19/Country").getValue(1, rowNum)): Text 'Thailand' is set on object 'Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/input_Search_form-control input-sm'
+
+2020-04-08 01:25:41 - [MESSAGE][PASSED] - Text 'Thailand' is set on object 'Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/input_Search_form-control input-sm'
+
+2020-04-08 01:25:41 - [TEST_STEP][PASSED] - getText(findTestObject("Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/td_102")): Text of object 'Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/td_102' is: '+38'
+
+2020-04-08 01:25:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/td_102' is: '+38'
+
+2020-04-08 01:25:42 - [TEST_STEP][PASSED] - getText(findTestObject("Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/td_3")): Text of object 'Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/td_3' is: '+1'
+
+2020-04-08 01:25:43 - [MESSAGE][PASSED] - Text of object 'Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/td_3' is: '+1'
+
+2020-04-08 01:25:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/input_Search_form-control input-sm"), findTestData("Covid-19/Country").getValue(1, rowNum)): Text 'USA' is set on object 'Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/input_Search_form-control input-sm'
+
+2020-04-08 01:25:44 - [MESSAGE][PASSED] - Text 'USA' is set on object 'Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/input_Search_form-control input-sm'
+
+2020-04-08 01:25:44 - [TEST_STEP][PASSED] - getText(findTestObject("Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/td_102")): Text of object 'Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/td_102' is: '+19,567'
+
+2020-04-08 01:25:44 - [MESSAGE][PASSED] - Text of object 'Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/td_102' is: '+19,567'
+
+2020-04-08 01:25:44 - [TEST_STEP][PASSED] - getText(findTestObject("Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/td_3")): Text of object 'Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/td_3' is: '+1,403'
+
+2020-04-08 01:25:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/td_3' is: '+1,403'
+
+2020-04-08 01:25:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/input_Search_form-control input-sm"), findTestData("Covid-19/Country").getValue(1, rowNum)): Text 'Spain' is set on object 'Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/input_Search_form-control input-sm'
+
+2020-04-08 01:25:46 - [MESSAGE][PASSED] - Text 'Spain' is set on object 'Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/input_Search_form-control input-sm'
+
+2020-04-08 01:25:46 - [TEST_STEP][PASSED] - getText(findTestObject("Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/td_102")): Text of object 'Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/td_102' is: '+3,836'
+
+2020-04-08 01:25:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/td_102' is: '+3,836'
+
+2020-04-08 01:25:47 - [TEST_STEP][PASSED] - getText(findTestObject("Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/td_3")): Text of object 'Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/td_3' is: '+556'
+
+2020-04-08 01:25:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/td_3' is: '+556'
+
+2020-04-08 01:25:47 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-04-08 01:25:48 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Log in/Covid-19" time="54.714" classname="Test Cases/Log in/Covid-19" status="PASSED">
+         <system-out><![CDATA[2020-04-08 01:25:48 - [TEST_CASE][PASSED] - Test Cases/Log in/Covid-19: Test Cases/Log in/Covid-19
+
+2020-04-08 01:25:48 - [TEST_STEP][PASSED] - openBrowser("https://www.worldometers.info/coronavirus/"): Browser is opened with url: 'https://www.worldometers.info/coronavirus/'
+
+2020-04-08 01:25:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-04-08 01:25:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-04-08 01:26:02 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.worldometers.info/coronavirus/'
+
+2020-04-08 01:26:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/a_view by country")): Object: 'Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/a_view by country' is clicked on
+
+2020-04-08 01:26:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/a_view by country' is clicked on
+
+2020-04-08 01:26:19 - [TEST_STEP][PASSED] - for ([rowNum = 1, rowNum <= findTestData("Covid-19/Country").getRowNumbers(), (rowNum++)]): Text of object 'Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/td_3' is: '+556'
+
+2020-04-08 01:26:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/input_Search_form-control input-sm"), findTestData("Covid-19/Country").getValue(1, rowNum)): Text 'Thailand' is set on object 'Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/input_Search_form-control input-sm'
+
+2020-04-08 01:26:23 - [MESSAGE][PASSED] - Text 'Thailand' is set on object 'Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/input_Search_form-control input-sm'
+
+2020-04-08 01:26:23 - [TEST_STEP][PASSED] - getText(findTestObject("Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/td_102")): Text of object 'Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/td_102' is: '+38'
+
+2020-04-08 01:26:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/td_102' is: '+38'
+
+2020-04-08 01:26:25 - [TEST_STEP][PASSED] - getText(findTestObject("Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/td_3")): Text of object 'Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/td_3' is: '+1'
+
+2020-04-08 01:26:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/td_3' is: '+1'
+
+2020-04-08 01:26:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/input_Search_form-control input-sm"), findTestData("Covid-19/Country").getValue(1, rowNum)): Text 'USA' is set on object 'Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/input_Search_form-control input-sm'
+
+2020-04-08 01:26:32 - [MESSAGE][PASSED] - Text 'USA' is set on object 'Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/input_Search_form-control input-sm'
+
+2020-04-08 01:26:32 - [TEST_STEP][PASSED] - getText(findTestObject("Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/td_102")): Text of object 'Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/td_102' is: '+19,567'
+
+2020-04-08 01:26:33 - [MESSAGE][PASSED] - Text of object 'Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/td_102' is: '+19,567'
+
+2020-04-08 01:26:33 - [TEST_STEP][PASSED] - getText(findTestObject("Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/td_3")): Text of object 'Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/td_3' is: '+1,403'
+
+2020-04-08 01:26:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/td_3' is: '+1,403'
+
+2020-04-08 01:26:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/input_Search_form-control input-sm"), findTestData("Covid-19/Country").getValue(1, rowNum)): Text 'Spain' is set on object 'Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/input_Search_form-control input-sm'
+
+2020-04-08 01:26:40 - [MESSAGE][PASSED] - Text 'Spain' is set on object 'Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/input_Search_form-control input-sm'
+
+2020-04-08 01:26:40 - [TEST_STEP][PASSED] - getText(findTestObject("Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/td_102")): Text of object 'Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/td_102' is: '+3,836'
+
+2020-04-08 01:26:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/td_102' is: '+3,836'
+
+2020-04-08 01:26:42 - [TEST_STEP][PASSED] - getText(findTestObject("Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/td_3")): Text of object 'Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/td_3' is: '+556'
+
+2020-04-08 01:26:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/td_3' is: '+556'
+
+2020-04-08 01:26:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-04-08 01:26:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Log in/Covid-19" time="32.78" classname="Test Cases/Log in/Covid-19" status="PASSED">
+         <system-out><![CDATA[2020-04-08 01:26:43 - [TEST_CASE][PASSED] - Test Cases/Log in/Covid-19: Test Cases/Log in/Covid-19
+
+2020-04-08 01:26:43 - [TEST_STEP][PASSED] - openBrowser("https://www.worldometers.info/coronavirus/"): Browser is opened with url: 'https://www.worldometers.info/coronavirus/'
+
+2020-04-08 01:26:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-04-08 01:26:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-04-08 01:26:58 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.worldometers.info/coronavirus/'
+
+2020-04-08 01:26:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/a_view by country")): Object: 'Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/a_view by country' is clicked on
+
+2020-04-08 01:26:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/a_view by country' is clicked on
+
+2020-04-08 01:26:59 - [TEST_STEP][PASSED] - for ([rowNum = 1, rowNum <= findTestData("Covid-19/Country").getRowNumbers(), (rowNum++)]): Text of object 'Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/td_3' is: '+556'
+
+2020-04-08 01:26:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/input_Search_form-control input-sm"), findTestData("Covid-19/Country").getValue(1, rowNum)): Text 'Thailand' is set on object 'Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/input_Search_form-control input-sm'
+
+2020-04-08 01:27:09 - [MESSAGE][PASSED] - Text 'Thailand' is set on object 'Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/input_Search_form-control input-sm'
+
+2020-04-08 01:27:09 - [TEST_STEP][PASSED] - getText(findTestObject("Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/td_102")): Text of object 'Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/td_102' is: '+38'
+
+2020-04-08 01:27:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/td_102' is: '+38'
+
+2020-04-08 01:27:09 - [TEST_STEP][PASSED] - getText(findTestObject("Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/td_3")): Text of object 'Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/td_3' is: '+1'
+
+2020-04-08 01:27:10 - [MESSAGE][PASSED] - Text of object 'Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/td_3' is: '+1'
+
+2020-04-08 01:27:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/input_Search_form-control input-sm"), findTestData("Covid-19/Country").getValue(1, rowNum)): Text 'USA' is set on object 'Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/input_Search_form-control input-sm'
+
+2020-04-08 01:27:11 - [MESSAGE][PASSED] - Text 'USA' is set on object 'Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/input_Search_form-control input-sm'
+
+2020-04-08 01:27:11 - [TEST_STEP][PASSED] - getText(findTestObject("Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/td_102")): Text of object 'Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/td_102' is: '+19,567'
+
+2020-04-08 01:27:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/td_102' is: '+19,567'
+
+2020-04-08 01:27:12 - [TEST_STEP][PASSED] - getText(findTestObject("Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/td_3")): Text of object 'Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/td_3' is: '+1,403'
+
+2020-04-08 01:27:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/td_3' is: '+1,403'
+
+2020-04-08 01:27:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/input_Search_form-control input-sm"), findTestData("Covid-19/Country").getValue(1, rowNum)): Text 'Spain' is set on object 'Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/input_Search_form-control input-sm'
+
+2020-04-08 01:27:14 - [MESSAGE][PASSED] - Text 'Spain' is set on object 'Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/input_Search_form-control input-sm'
+
+2020-04-08 01:27:14 - [TEST_STEP][PASSED] - getText(findTestObject("Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/td_102")): Text of object 'Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/td_102' is: '+3,836'
+
+2020-04-08 01:27:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/td_102' is: '+3,836'
+
+2020-04-08 01:27:14 - [TEST_STEP][PASSED] - getText(findTestObject("Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/td_3")): Text of object 'Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/td_3' is: '+556'
+
+2020-04-08 01:27:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/td_3' is: '+556'
+
+2020-04-08 01:27:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-04-08 01:27:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-04-08 01:25:11 - [TEST_SUITE][PASSED] - Covid-19: Test Cases/Log in/Covid-19]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

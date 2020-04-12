@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Covid-19,Chrome 80.0.3987.149,,,2020-04-08 00:35:07,2020-04-08 00:36:54,1m - 46.807s,PASSED
+,,,,,,,
+Test Cases/Log in/Covid-19,Chrome 80.0.3987.149,,,2020-04-08 00:35:08,2020-04-08 00:35:51,42.511s,PASSED
+"openBrowser(""https://www.worldometers.info/coronavirus/"")",Chrome 80.0.3987.149,,,2020-04-08 00:35:09,2020-04-08 00:35:32,23.453s,PASSED
+"click(findTestObject(""Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/a_view by country""))",Chrome 80.0.3987.149,,,2020-04-08 00:35:32,2020-04-08 00:35:34,1.599s,PASSED
+"for ([rowNum = 1, rowNum <= findTestData(""Covid-19/Country"").getRowNumbers(), (rowNum++)])",Chrome 80.0.3987.149,,,2020-04-08 00:35:34,2020-04-08 00:35:50,16.604s,PASSED
+closeBrowser(),Chrome 80.0.3987.149,,,2020-04-08 00:35:50,2020-04-08 00:35:51,0.311s,PASSED
+,,,,,,,
+Test Cases/Log in/Covid-19,Chrome 80.0.3987.149,,,2020-04-08 00:35:51,2020-04-08 00:36:22,31.624s,PASSED
+"openBrowser(""https://www.worldometers.info/coronavirus/"")",Chrome 80.0.3987.149,,,2020-04-08 00:35:51,2020-04-08 00:36:04,13.651s,PASSED
+"click(findTestObject(""Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/a_view by country""))",Chrome 80.0.3987.149,,,2020-04-08 00:36:04,2020-04-08 00:36:14,9.730s,PASSED
+"for ([rowNum = 1, rowNum <= findTestData(""Covid-19/Country"").getRowNumbers(), (rowNum++)])",Chrome 80.0.3987.149,,,2020-04-08 00:36:14,2020-04-08 00:36:22,7.831s,PASSED
+closeBrowser(),Chrome 80.0.3987.149,,,2020-04-08 00:36:22,2020-04-08 00:36:22,0.386s,PASSED
+,,,,,,,
+Test Cases/Log in/Covid-19,Chrome 80.0.3987.149,,,2020-04-08 00:36:22,2020-04-08 00:36:54,31.939s,PASSED
+"openBrowser(""https://www.worldometers.info/coronavirus/"")",Chrome 80.0.3987.149,,,2020-04-08 00:36:22,2020-04-08 00:36:36,14.002s,PASSED
+"click(findTestObject(""Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/a_view by country""))",Chrome 80.0.3987.149,,,2020-04-08 00:36:36,2020-04-08 00:36:46,9.698s,PASSED
+"for ([rowNum = 1, rowNum <= findTestData(""Covid-19/Country"").getRowNumbers(), (rowNum++)])",Chrome 80.0.3987.149,,,2020-04-08 00:36:46,2020-04-08 00:36:54,7.847s,PASSED
+closeBrowser(),Chrome 80.0.3987.149,,,2020-04-08 00:36:54,2020-04-08 00:36:54,0.368s,PASSED

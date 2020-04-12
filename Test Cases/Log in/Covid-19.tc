@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Covid-19</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e6716194-2d19-4249-b598-cc3b33bc2edf</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>18f5e9c1-8a80-453f-96f3-8eb834459f3b</id>
+      <masked>false</masked>
+      <name>Country</name>
+   </variable>
+</TestCaseEntity>

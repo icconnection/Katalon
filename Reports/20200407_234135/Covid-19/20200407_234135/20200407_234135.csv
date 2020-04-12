@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Covid-19,Chrome 80.0.3987.149,,,2020-04-07 23:42:01,2020-04-07 23:43:19,1m - 18.756s,FAILED
+,,,,,,,
+Test Cases/Log in/Covid-19,Chrome 80.0.3987.149,,,2020-04-07 23:42:02,2020-04-07 23:42:59,57.537s,PASSED
+"openBrowser(""https://www.worldometers.info/coronavirus/"")",Chrome 80.0.3987.149,,,2020-04-07 23:42:02,2020-04-07 23:42:23,20.881s,PASSED
+"click(findTestObject(""Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/a_view by country""))",Chrome 80.0.3987.149,,,2020-04-07 23:42:23,2020-04-07 23:42:40,16.311s,PASSED
+"for ([rowNum = 1, rowNum <= findTestData(""Covid-19/Country"").getRowNumbers(), (rowNum++)])",Chrome 80.0.3987.149,,,2020-04-07 23:42:40,2020-04-07 23:42:59,19.089s,PASSED
+closeBrowser(),Chrome 80.0.3987.149,,,2020-04-07 23:42:59,2020-04-07 23:42:59,0.366s,PASSED
+,,,,,,,
+Test Cases/Log in/Covid-19,Chrome 80.0.3987.149,,,2020-04-07 23:42:59,2020-04-07 23:43:12,13.134s,FAILED
+"openBrowser(""https://www.worldometers.info/coronavirus/"")",Chrome 80.0.3987.149,,,2020-04-07 23:42:59,2020-04-07 23:43:12,12.714s,PASSED
+"click(findTestObject(""Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/a_view by country""))",Chrome 80.0.3987.149,,,2020-04-07 23:43:12,2020-04-07 23:43:12,0.368s,FAILED
+,,,,,,,
+Test Cases/Log in/Covid-19,Chrome 80.0.3987.149,,,2020-04-07 23:43:12,2020-04-07 23:43:19,7.027s,FAILED
+"openBrowser(""https://www.worldometers.info/coronavirus/"")",Chrome 80.0.3987.149,,,2020-04-07 23:43:12,2020-04-07 23:43:19,6.680s,PASSED
+"click(findTestObject(""Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/a_view by country""))",Chrome 80.0.3987.149,,,2020-04-07 23:43:19,2020-04-07 23:43:19,0.290s,FAILED
