@@ -16,18 +16,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://www.worldometers.info/coronavirus/')
-
-WebUI.click(findTestObject('Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/a_view by country'))
-
-WebUI.setText(findTestObject('Object Repository/Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/input_Search_form-control input-sm'), 
-    'Thailand')
-
-'Get New Cases'
-WebUI.getText(findTestObject('Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/td_102'))
-
-'Get New Deaths'
-WebUI.getText(findTestObject('Covid-19 Object Repo/Page_Coronavirus Update (Live) 1204075 Case_106633/td_3'))
+WebUI.openBrowser('http://www.ic-connection.com')
 
 WebUI.closeBrowser()
 

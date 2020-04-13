@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+OpenClose,,,,2020-04-13 20:11:58,2020-04-13 20:12:13,15.046s,FAILED
+,,,,,,,
+Test Cases/OpenClose1,,,,2020-04-13 20:11:59,2020-04-13 20:12:10,10.546s,FAILED
+"openBrowser(""https://www.ic-connection.com"")",,,,2020-04-13 20:12:00,2020-04-13 20:12:10,9.570s,FAILED
+,,,,,,,
+Test Cases/OpenClose2,,,,2020-04-13 20:12:10,2020-04-13 20:12:13,3.347s,FAILED
+"openBrowser(""https://www.ic-connection.com"")",,,,2020-04-13 20:12:11,2020-04-13 20:12:13,1.880s,FAILED

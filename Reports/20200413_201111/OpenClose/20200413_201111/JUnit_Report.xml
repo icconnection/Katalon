@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="OpenClose" time="34.34" tests="2" failures="0" errors="0">
+   <testsuite name="OpenClose" tests="2" failures="0" errors="0" time="34.34" timestamp="2020-04-13 20:11:51" hostname="thaveephongt - 192.168.1.107" id="Test Suites/OpenClose">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/thaveephongt/Katalon Studio/Be Demo/Reports/20200413_201111/OpenClose/20200413_201111"/>
+         <property name="logFiles" value="/Users/thaveephongt/Katalon Studio/Be Demo/Reports/20200413_201111/OpenClose/20200413_201111/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="thaveephongt - 192.168.1.107"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.3.0.1"/>
+         <property name="browser" value="Firefox 74.0"/>
+         <property name="hostAddress" value="192.168.1.107"/>
+         <property name="sessionId" value="f7d252ee-63c0-1848-955e-6e12b3a45e45"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/OpenClose1" time="22.196" classname="Test Cases/OpenClose1" status="PASSED">
+         <system-out><![CDATA[2020-04-13 20:11:52 - [TEST_CASE][PASSED] - Test Cases/OpenClose1: Test Cases/OpenClose1
+
+2020-04-13 20:11:54 - [TEST_STEP][PASSED] - openBrowser("https://www.ic-connection.com"): Browser is opened with url: 'https://www.ic-connection.com'
+
+2020-04-13 20:11:55 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-04-13 20:11:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-04-13 20:12:11 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.ic-connection.com'
+
+2020-04-13 20:12:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-04-13 20:12:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OpenClose2" time="10.61" classname="Test Cases/OpenClose2" status="PASSED">
+         <system-out><![CDATA[2020-04-13 20:12:14 - [TEST_CASE][PASSED] - Test Cases/OpenClose2: Test Cases/OpenClose2
+
+2020-04-13 20:12:15 - [TEST_STEP][PASSED] - openBrowser("https://www.ic-connection.com"): Browser is opened with url: 'https://www.ic-connection.com'
+
+2020-04-13 20:12:15 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-04-13 20:12:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-04-13 20:12:23 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.ic-connection.com'
+
+2020-04-13 20:12:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-04-13 20:12:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-04-13 20:11:51 - [TEST_SUITE][PASSED] - OpenClose: Test Cases/OpenClose2]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+OpenClose,Firefox 74.0,,,2020-04-13 20:11:51,2020-04-13 20:12:25,33.990s,PASSED
+,,,,,,,
+Test Cases/OpenClose1,Firefox 74.0,,,2020-04-13 20:11:52,2020-04-13 20:12:14,22.196s,PASSED
+"openBrowser(""https://www.ic-connection.com"")",Firefox 74.0,,,2020-04-13 20:11:54,2020-04-13 20:12:11,16.984s,PASSED
+closeBrowser(),Firefox 74.0,,,2020-04-13 20:12:11,2020-04-13 20:12:14,3.723s,PASSED
+,,,,,,,
+Test Cases/OpenClose2,Firefox 74.0,,,2020-04-13 20:12:14,2020-04-13 20:12:25,10.610s,PASSED
+"openBrowser(""https://www.ic-connection.com"")",Firefox 74.0,,,2020-04-13 20:12:15,2020-04-13 20:12:23,8.370s,PASSED
+closeBrowser(),Firefox 74.0,,,2020-04-13 20:12:23,2020-04-13 20:12:25,2.012s,PASSED
