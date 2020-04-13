@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+OpenClose,Chrome 81.0.4044.92,,,2020-04-13 21:09:31,2020-04-13 21:09:43,12.046s,PASSED
+,,,,,,,
+Test Cases/OpenClose1,Chrome 81.0.4044.92,,,2020-04-13 21:09:32,2020-04-13 21:09:37,5.740s,PASSED
+"openBrowser(""http://www.ic-connection.com"")",Chrome 81.0.4044.92,,,2020-04-13 21:09:32,2020-04-13 21:09:37,5.028s,PASSED
+closeBrowser(),Chrome 81.0.4044.92,,,2020-04-13 21:09:37,2020-04-13 21:09:37,0.218s,PASSED
+,,,,,,,
+Test Cases/OpenClose2,Chrome 81.0.4044.92,,,2020-04-13 21:09:37,2020-04-13 21:09:43,5.878s,PASSED
+"openBrowser(""http://www.ic-connection.com"")",Chrome 81.0.4044.92,,,2020-04-13 21:09:38,2020-04-13 21:09:43,5.277s,PASSED
+closeBrowser(),Chrome 81.0.4044.92,,,2020-04-13 21:09:43,2020-04-13 21:09:43,0.299s,PASSED
